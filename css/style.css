@@ -10,7 +10,10 @@ body{
 }
 
 .text-muted {
-	color:#bcbbb;
+	color:#BCBBBB;
+	font-weight:bold;
+	padding-left: 5px;
+	padding-top: 10px;
 }
 
 .text-thin {
@@ -29,3 +32,4 @@ body{
 .thicker-line {
 	border-top: 3px solid #bcbbbb;
 }
+
