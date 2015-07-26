@@ -1,12 +1,14 @@
-body{
-	font-family: 'Lato', sans-serif;
-	color: 747704;
+/*Apply to all code*/
+body {
+	font-family: 'Lato',sans-serif;
+	color: #660;
 	font-weight: 300;
 }
 
+/*Text modifications*/
 .text-muted {
-	color:#BCBBBB;
-	font-weight:bold;
+	color: #bcbbbb;
+	font-weight: bold;
 	padding-left: 5px;
 	padding-top: 10px;
 }
@@ -15,16 +17,17 @@ body{
 	font-weight: 100;
 }
 
-
 .title-super {
 	font-size: 60px;
 }
 
+/*Logo margin*/
 .title-logo {
-	margin-top:20px;
+	margin-top: 20px;
 }
 
+/*Line edit*/
 .thicker-line {
-	border-top: 3px solid #bcbbbb;
+	border-top: 4px solid #bcbbbb;
 }
 
