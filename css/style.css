@@ -5,12 +5,15 @@ body {
 	font-weight: 300;
 }
 
+img, embed, object, video {
+	max-width: 100%;
+}
+
 /*Text modifications*/
 .text-muted {
 	color: #bcbbbb;
 	font-weight: bold;
-	padding-left: 5px;
-	padding-top: 10px;
+	padding: 10px 0px 0px 5px;
 }
 
 .text-thin {
@@ -31,3 +34,13 @@ body {
 	border-top: 4px solid #bcbbbb;
 }
 
+/*Change cursor to a hand*/
+.hand {
+	cursor: pointer;
+}
+
+/*edit nav bar */
+.navbar-nav>li>a {
+	width: 100px;
+	text-align: center;
+}

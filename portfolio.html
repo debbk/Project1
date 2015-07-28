@@ -1,74 +1,108 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio</title>
-            <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/style.css">     
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</head>
-
+<!--Navigation bar-->
+    <div>
+        <nav role="navigation" class="navbar navbar-default navbar-static-top">
+            <!-- Toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- can use this to alternately put Udacity logo
+                <a href="#" class="navbar-brand"> logo </a>
+                -->
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#puppycat">Appify</a></li>
+                    <li><a href="#kittypopsicle">Sunflower</a></li>
+                    <li><a href="#elephants">Bokeh</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+<!--end nav bar-->
 	<body>
-        <div class = "container">
+		<div class = "container">
 <!--header-->
-            <div class ="row">
-                <div class ="col-md-6">
-                    <img class="title-logo" src="images/udacity-logo.jpg" alt="Udacity logo">
-                </div>
-                <div class = "col-md-6 text-right text-uppercase">
-                    <h1 class="title-super text-thin">Jane Doette</h1>
-                    <h4>Front-end Ninja</h4>
-                </div>
-            </div>
-    
+			<header>
+				<div class ="row">
+					<div class ="col-md-6">
+						<img class="title-logo" src="images/udacity-logo.jpg" alt="Udacity logo">
+					</div>
+					<div class = "col-md-6 text-right text-uppercase">
+						<h1 class="title-super text-thin">Jane Doette</h1>
+						<h4>Front-end Ninja</h4>
+					</div>
+				</div>
+			</header>
+
 <!--Draw a line-->
-            <div class ="row">
-                <div class="col-md-12">
-                    <hr class="thicker-line">
-                </div>
-            </div>
-    
-<!--main image-->
-            <div class ="row">
-                <div class ="col-md-12">
-                    <img class="img-responsive" src="images/1.jpg" alt="Four Birds">
-                </div>
-            </div>
-    
-<!--Projects-->
-            <div class ="row">
-                <div class = "col-md-12">
-                    <h2 class="text-muted">Featured Work</h2>
-                </div>
-            </div>
-    
-            <div class ="row text-center">
-<!--1st image-->
-                <div class = "col-md-4">
-                    <img class="img-responsive" src="images/2.jpg" data-toggle="modal" data-target="#project1" alt="incense holder">
-                    <h3 class ="text-uppercase">Appify</h3>
-                    <p>https://github.com/udacity/Appfiy/</p>
-                </div>
-<!--2nd image-->
-                <div class = "col-md-4">
-                    <img class="img-responsive" src="images/3.jpg" data-toggle="modal" data-target="#project2" alt="pool">
-                    <h3 class ="text-uppercase">Sunflower</h3>
-                    <p>https://github.com/udacity/Sunflower/</p>
-                </div>
-<!--3rd image-->
-                <div class = "col-md-4">
-                    <img class="img-responsive" src="images/4.jpg" data-toggle="modal" data-target="#project3" alt="butterfly">
-                    <h3 class ="text-uppercase">Bokeh</h3>
-                    <p>https://github.com/udacity/Bokeh/</p>
-                </div>
-    
+			<div class ="row">
+				<div class="col-md-12">
+					<hr class="thicker-line">
+				</div>
 			</div>
-        </div>
-        
+
+<!--main image-->
+			<div class ="row">
+				<div class ="col-md-12">
+					<img class="img-responsive" src="images/1.jpg" alt="Four Birds">
+				</div>
+			</div>
+
+<!--Projects-->
+			<div class ="row">
+				<div class = "col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+
+			<div class ="row text-center">
+<!--1st image-->
+				<section>
+					<div class = "col-md-4">
+						<a name="puppycat"><img class="hand img-responsive" src="images/2.jpg" data-toggle="modal" data-target="#project1" alt="incense holder"></a>
+						<h3 class ="text-uppercase">Appify</h3>
+						<p>https://github.com/udacity/Appfiy/</p>
+					</div>
+				</section>
+<!--2nd image-->
+				<section>
+					<div class = "col-md-4">
+						<a name="kittypopsicle"><img class="hand img-responsive" src="images/3.jpg" data-toggle="modal" data-target="#project2" alt="pool"></a>
+						<h3 class ="text-uppercase">Sunflower</h3>
+						<p>https://github.com/udacity/Sunflower/</p>
+					</div>
+				</section>
+<!--3rd image-->
+				<section>
+					<div class = "col-md-4">
+						<a name="elephants"><img class="hand img-responsive" src="images/4.jpg" data-toggle="modal" data-target="#project3" alt="butterfly"></a>
+						<h3 class ="text-uppercase">Bokeh</h3>
+						<p>https://github.com/udacity/Bokeh/</p>
+					</div>
+				</section>
+			</div>
+		</div>
+
 <!-- Modal 1 -->
 		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1modal" aria-hidden="true">
 			<div class="modal-dialog">
@@ -79,14 +113,14 @@
 					<div class="modal-body">
 						<img class="img-responsive" src="images/puppy.jpg" alt="puppy">
 						This was my first project in this class. I learned a lot about HTML and CSS.
- 					</div>
+					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
 		</div>
-    
+
 <!-- Modal 2 -->
 		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2modal" aria-hidden="true">
 			<div class="modal-dialog">
@@ -104,7 +138,7 @@
 				</div>
 			</div>
 		</div>
-         
+
 <!-- Modal 3 -->
 		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3modal" aria-hidden="true">
 			<div class="modal-dialog">
@@ -121,6 +155,6 @@
 					</div>
 				</div>
 			</div>
-		</div>   
+		</div>
 	</body>
 </html>
