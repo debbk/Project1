@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my first portfolio",
+  "main": "portfolio.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debbk/Project1.git"
+  },
+  "author": "Deborah King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debbk/Project1/issues"
+  },
+  "homepage": "https://github.com/debbk/Project1#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-mkdir": "^0.1.2",
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
