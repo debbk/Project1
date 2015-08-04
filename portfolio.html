@@ -5,67 +5,69 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Portfolio</title>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 		<!--Bootstrap StyleSheet-->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<!--Picturefill for Safari-->
-		<script src="picturefill.min.js" async></script>
+		<script src="js/picturefill.min.js" async></script>
 		<!--Bootstrap JS-->
 		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class = "container">
+		<div class="container">
 			<!--Navigation bar-->
-			<div>
-				<nav role="navigation" class="navbar navbar-default navbar-static-top">
-				<!-- Toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<!-- Collection of nav links and other content for toggling -->
-					<div id="navbarCollapse" class="collapse navbar-collapse">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#puppycat">Appify</a></li>
-							<li><a href="#kittypopsicle">Sunflower</a></li>
-							<li><a href="#elephants">Bokeh</a></li>
-						</ul>
-					</div>
-				</nav>
+			<div class="row">
+				<div class="col-12">
+					<nav role="navigation" class="navbar navbar-default navbar-static-top">
+					<!-- Toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collection of nav links and other content for toggling -->
+						<div id="navbarCollapse" class="collapse navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Home</a></li>
+								<li><a href="#puppycat">Appify</a></li>
+								<li><a href="#kittypopsicle">Sunflower</a></li>
+								<li><a href="#elephants">Bokeh</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
 			</div>
 			<!--end nav bar-->
 			<!--header-->
 			<header>
-				<div class ="row">
-					<div class ="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
 						<picture>
 							<source media="(min-width:750px)" srcset="imagesmall/images/fixed/udacity-logo.jpg">
 							<img class="title-logo" src="imagesmall/images/fixed/udacity-logo-sm.jpg" alt="Udacity logo">
 						</picture>
 					</div>
-					<div class = "col-md-6 text-right text-uppercase">
+					<div class="col-md-6 text-right text-uppercase">
 						<h1 class="title-super text-thin">Jane Doette</h1>
 						<h4>Front-end Ninja</h4>
 					</div>
 				</div>
 			</header>
 			<!--Draw a line-->
-			<div class ="row">
+			<div class="row">
 				<div class="col-md-12">
 					<hr class="thicker-line">
 				</div>
 			</div>
 			<!--main image-->
-			<div class ="row">
-				<div class ="col-md-12">
+			<div class="row">
+				<div class="col-md-12">
 					<picture>   
 						<source media="(min-width:600px)" srcset="imagesmall/1-large.jpg">
 						<source media="(min-width:400px)" srcset="imagesmall/1-medium.jpg">
@@ -74,15 +76,15 @@
 				</div>
 			</div>
 			<!--Projects-->
-			<div class ="row">
-				<div class = "col-md-12">
+			<div class="row">
+				<div class="col-md-12">
 					<h2 class="text-muted">Featured Work</h2>
 				</div>
 			</div>
-			<div class ="row text-center">
+			<div class="row text-center">
 				<!--1st image-->
 				<section>
-					<div class = "col-md-4">
+					<div class="col-md-4">
 						<a name="puppycat">
 							<picture>
 								<source media="(min-width:1000px)" srcset="imagesmall/2-small.jpg">
@@ -90,13 +92,13 @@
 								<img class="hand img-responsive" src="imagesmall/2-small.jpg" data-toggle="modal" data-target="#project1" alt="incense holder">
 							</picture>
 						</a>
-						<h3 class ="text-uppercase">Appify</h3>
+						<h3 class="text-uppercase">Appify</h3>
 						<p>https://github.com/udacity/Appfiy/</p>
 					</div>
 				</section>
 				<!--2nd image-->
 				<section>
-					<div class = "col-md-4">
+					<div class="col-md-4">
 						<a name="kittypopsicle">
 							<picture>
 								<source media="(min-width:1000px)" srcset="imagesmall/3-small.jpg">
@@ -104,13 +106,13 @@
 								<img class="hand img-responsive" src="imagesmall/3-medium.jpg" data-toggle="modal" data-target="#project2" alt="pool">
 							</picture>
 						</a>
-						<h3 class ="text-uppercase">Sunflower</h3>
+						<h3 class="text-uppercase">Sunflower</h3>
 						<p>https://github.com/udacity/Sunflower/</p>
 					</div>
 				</section>
 				<!--3rd image-->
 				<section>
-					<div class = "col-md-4">
+					<div class="col-md-4">
 						<a name="elephants">
 							<picture>
 								<source media="(min-width:1000px)" srcset="imagesmall/4-small.jpg">
@@ -118,7 +120,7 @@
 								<img class="hand img-responsive" src="imagesmall/4-medium.jpg" data-toggle="modal" data-target="#project3" alt="butterfly">
 							</picture>
 						</a>
-						<h3 class ="text-uppercase">Bokeh</h3>
+						<h3 class="text-uppercase">Bokeh</h3>
 						<p>https://github.com/udacity/Bokeh/</p>
 					</div>
 				</section>

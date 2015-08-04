@@ -7,7 +7,10 @@ body {
 	flex-wrap: wrap;
 }
 
-img, embed, object, video {
+img, 
+embed, 
+object, 
+video {
 	max-width: 100%;
 	transition: width 0.5s;
 }
@@ -39,7 +42,7 @@ img, embed, object, video {
 }
 
 /*edit nav bar */
-.navbar-nav>li>a {
+a {
 	width: 100px;
 	text-align: center;
 }
@@ -47,17 +50,19 @@ img, embed, object, video {
 /*Adjust heading font size*/
 @media screen and (min-width: 400px) {
 	.title-super {
-	font-size: 40px;
+		font-size: 40px;
 	}
 }
+
 @media screen and (min-width: 600px) {
 	.title-super {
-	font-size: 50px;
+		font-size: 50px;
 	}
 }
+
 @media screen and (min-width: 1000px) {
 	.title-super {
-	font-size: 60px;
+		font-size: 60px;
 	}
 }
 
