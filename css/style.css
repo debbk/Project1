@@ -3,10 +3,13 @@ body {
 	font-family: 'Lato',sans-serif;
 	color: #660;
 	font-weight: 300;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 img, embed, object, video {
 	max-width: 100%;
+	transition: width 0.5s;
 }
 
 /*Text modifications*/
@@ -20,13 +23,9 @@ img, embed, object, video {
 	font-weight: 100;
 }
 
-.title-super {
-	font-size: 60px;
-}
-
 /*Logo margin*/
 .title-logo {
-	margin-top: 20px;
+	margin: 20px 0px 0px 0px;
 }
 
 /*Line edit*/
@@ -44,3 +43,21 @@ img, embed, object, video {
 	width: 100px;
 	text-align: center;
 }
+
+/*Adjust heading font size*/
+@media screen and (min-width: 400px) {
+	.title-super {
+	font-size: 40px;
+	}
+}
+@media screen and (min-width: 600px) {
+	.title-super {
+	font-size: 50px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.title-super {
+	font-size: 60px;
+	}
+}
+

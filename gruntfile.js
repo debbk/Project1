@@ -9,17 +9,24 @@ module.exports = function(grunt) {
 			dev: {
 				options: {
 			 		engine: 'im',
-			 		sizes: [
-			 		{
-			 		width: 300,
-			 		quality:50,
-			 		suffix: 1
-			 		}]
+			 		sizes: [{
+				 		name: "large",
+				 		width: 1200,
+				 		quality:60
+			 		},{
+						name: "medium",
+				 		width: 600,
+				 		quality:60
+				 	},{
+						name: "small",
+				 		width: 400,
+				 		quality:60
+				 	}]
 				},
 				files: [{
 			 		expand: true,
-			 		src: ['*.{gif,jpg,png}'],
-			 		cwd: 'images_src/',
+			 		src: ['**.*'],
+			 		cwd: 'images/',
 			 		dest: 'imagesmall/'
 				}]
 			}
@@ -46,7 +53,7 @@ module.exports = function(grunt) {
 			dev: {
 				files: [{
 				expand: true,
-          		src: 'images_src/fixed/*.{gif,jpg,png}',
+          		src: 'images/fixed/*.{gif,jpg,png}',
           		dest: 'imagesmall/'
 				}]
 			},
